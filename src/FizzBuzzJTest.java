@@ -26,5 +26,10 @@ private int toConvertToFizzBuzz;
 		Assert.assertEquals("Buzz", fizzbuzz.convert(toConvertToFizzBuzz));
 	}
 	
+	@Test
+	public void fizzBuzzConvertorMultiplesOfThreeAndFive() {
+		FizzBuzzConvertor fizzbuzz = new FizzBuzzConvertor();
+		Assert.assertEquals("FizzBuzz", fizzbuzz.convert(toConvertToFizzBuzz));
+	}
 	
 }
