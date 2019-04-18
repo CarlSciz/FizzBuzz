@@ -2,6 +2,14 @@
 public class FizzBuzzConvertor {
 
 	public String convert(int toConvertToFizzBuzz) {
-		return "1";
+	
+		if(toConvertToFizzBuzz %5 ==0) {
+			return "Buzz";
+		}
+		if(toConvertToFizzBuzz %3 ==0) {
+			return "Fizz";
+		}
+			
+		return String.valueOf(toConvertToFizzBuzz);
 	}
 }
